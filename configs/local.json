@@ -1,0 +1,11 @@
+{
+    "mysql": {
+        "user": "rc_admin",
+        "password": "12345678",
+        "host": "localhost",
+        "port": 3306,
+        "database": "rc",
+        "charset": "utf8",
+        "dbAlias": "default"
+    }
+}

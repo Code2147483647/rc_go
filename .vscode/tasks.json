@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "command": "go",
+    "type": "shell",
+    "reveal": "always",
+    "options": {
+        "env": {
+            "GOPATH": "/Users/slark/workspace/GOHOME"
+        }
+    },
+    "tasks": [
+        {
+            "label": "build",
+            "args": [
+                "-v",
+                "./..."
+            ],
+            "group": "build"
+        },
+        {
+            "label": "test",
+            "args": [
+                "-v",
+                "./..."
+            ],
+            "group": "test"
+        },
+        {
+            "label": "run main.go",
+            "args": [
+                "run",
+                "main.go"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
